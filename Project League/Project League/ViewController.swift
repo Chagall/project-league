@@ -45,33 +45,33 @@ class ViewController: UIViewController {
         switch card.id {
             case 1:
                 firstCardName.text = card.name
-                firstCardImageView.image = UIImage(named: "ashe")
-                firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+                firstCardImageView.image = UIImage(named: "ashe.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
                 break
             case 2:
                 firstCardName.text = card.name
-                firstCardImageView.image = UIImage(named: "blitzcrank")
-                firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+                firstCardImageView.image = UIImage(named: "blitzcrank.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
                 break
             case 3:
                 firstCardName.text = card.name
-                firstCardImageView.image = UIImage(named: "annie")
-                firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+                firstCardImageView.image = UIImage(named: "annie.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
                 break
             case 4:
                 firstCardName.text = card.name
-                firstCardImageView.image = UIImage(named: "evelynn")
-                firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+                firstCardImageView.image = UIImage(named: "evelynn.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
                 break
             case 5:
                 firstCardName.text = card.name
-                firstCardImageView.image = UIImage(named: "dr_mundo")
-                firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+                firstCardImageView.image = UIImage(named: "dr_mundo.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
                 break
             default:
                 firstCardName.text = card.name
-                firstCardImageView.image = UIImage(named: "dr_mundo")
-                firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+                firstCardImageView.image = UIImage(named: "dr_mundo.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
         }
     }
     
@@ -79,33 +79,33 @@ class ViewController: UIViewController {
         switch card.id {
             case 1:
                 secondCardName.text = card.name
-                secondCardImageView.image = UIImage(named: "ashe")
-                secondCardFrameImageView.image = UIImage(named: "challenger_frame")
+                secondCardImageView.image = UIImage(named: "ashe.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
                 break
             case 2:
                 secondCardName.text = card.name
-                secondCardImageView.image = UIImage(named: "blitzcrank")
-                secondCardFrameImageView.image = UIImage(named: "challenger_frame")
+                secondCardImageView.image = UIImage(named: "blitzcrank.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
                 break
             case 3:
                 secondCardName.text = card.name
-                secondCardImageView.image = UIImage(named: "annie")
-                secondCardFrameImageView.image = UIImage(named: "challenger_frame")
+                secondCardImageView.image = UIImage(named: "annie.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
                 break
             case 4:
                 secondCardName.text = card.name
-                secondCardImageView.image = UIImage(named: "evelynn")
-                secondCardFrameImageView.image = UIImage(named: "challenger_frame")
+                secondCardImageView.image = UIImage(named: "evelynn.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
                 break
             case 5:
                 secondCardName.text = card.name
-                secondCardImageView.image = UIImage(named: "dr_mundo")
-                secondCardFrameImageView.image = UIImage(named: "challenger_frame")
+                secondCardImageView.image = UIImage(named: "dr_mundo.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
                 break
             default:
                 secondCardName.text = card.name
-                secondCardImageView.image = UIImage(named: "teemo")
-                secondCardFrameImageView.image = UIImage(named: "challenger_frame")
+                secondCardImageView.image = UIImage(named: "teemo.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
         }
     }
 
