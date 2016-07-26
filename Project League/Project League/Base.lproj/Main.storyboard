@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_League" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Xor-Zw-8zG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="card_back" translatesAutoresizingMaskIntoConstraints="NO" id="Nol-Uq-Lwp" userLabel="First Card">
+                                <rect key="frame" x="0.0" y="215" width="120" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="Gdd-4L-rBg"/>
+                                    <constraint firstAttribute="width" constant="120" id="LJq-ew-Qes"/>
+                                </constraints>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="40" y="215" width="120" height="170"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="90" y="115" width="120" height="170"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="90" y="315" width="120" height="170"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="card_back" translatesAutoresizingMaskIntoConstraints="NO" id="E2H-UI-DOD" userLabel="Second Card">
+                                <rect key="frame" x="0.0" y="215" width="120" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="eHD-Ij-xcM"/>
+                                    <constraint firstAttribute="height" constant="170" id="qxu-7L-eet"/>
+                                </constraints>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="220" y="215" width="120" height="170"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="61" y="115" width="120" height="170"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="61" y="315" width="120" height="170"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7U-Sl-QjJ">
+                                <rect key="frame" x="263" y="0.0" width="75" height="30"/>
+                                <state key="normal" title="Deal Cards">
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="163" y="470" width="75" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="playRoundTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8xS-co-T5g"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Katarina WK" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLl-BM-9pQ" userLabel="First Card Name">
+                                <rect key="frame" x="0.0" y="0.0" width="105" height="23"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Varus Artic Ops" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6D-ZQ-JxN" userLabel="Second Card Name">
+                                <rect key="frame" x="0.0" y="0.0" width="134" height="23"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EuX-g2-kWw" userLabel="First Card Frame">
+                                <rect key="frame" x="0.0" y="210" width="130" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="GzB-mO-8TF" userLabel="width = 130"/>
+                                    <constraint firstAttribute="height" constant="180" id="t03-YB-jSe" userLabel="height = 180"/>
+                                </constraints>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES">
+                                    <rect key="frame" x="0.0" y="110" width="130" height="180"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UMB-22-k5I" userLabel="Second Card Frame">
+                                <rect key="frame" x="0.0" y="210" width="130" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="GcG-u1-sOL"/>
+                                    <constraint firstAttribute="height" constant="180" id="nRQ-mu-lCh"/>
+                                </constraints>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES">
+                                    <rect key="frame" x="0.0" y="110" width="130" height="180"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="league_of_legends_logo" translatesAutoresizingMaskIntoConstraints="NO" id="iq6-xx-70e" userLabel="League Logo">
+                                <rect key="frame" x="200" y="0.0" width="200" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="5O7-ZW-jKI"/>
+                                    <constraint firstAttribute="height" constant="80" id="9kx-gn-oza"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="EuX-g2-kWw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="5Qc-ri-khp"/>
+                            <constraint firstItem="Nol-Uq-Lwp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="6nG-FC-3dp"/>
+                            <constraint firstItem="xLl-BM-9pQ" firstAttribute="top" secondItem="Nol-Uq-Lwp" secondAttribute="bottom" constant="13" id="7Fn-9M-Avv"/>
+                            <constraint firstItem="iq6-xx-70e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Xq-Um-dbv"/>
+                            <constraint firstItem="E2H-UI-DOD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ADs-fd-y3m"/>
+                            <constraint firstItem="m7U-Sl-QjJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BQh-xr-p5f"/>
+                            <constraint firstItem="EuX-g2-kWw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IU9-td-IYW"/>
+                            <constraint firstItem="Nol-Uq-Lwp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="O3d-Nj-9ed"/>
+                            <constraint firstItem="Xor-Zw-8zG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VtR-md-7lq"/>
+                            <constraint firstItem="xLl-BM-9pQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="WeT-5o-Jh6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="m7U-Sl-QjJ" secondAttribute="bottom" constant="150" id="YZO-Oj-p3f"/>
+                            <constraint firstAttribute="trailing" secondItem="E2H-UI-DOD" secondAttribute="trailing" constant="30" id="ZeO-9G-rIC"/>
+                            <constraint firstAttribute="trailing" secondItem="Xor-Zw-8zG" secondAttribute="trailing" id="bCb-Xg-z99"/>
+                            <constraint firstAttribute="trailing" secondItem="E2H-UI-DOD" secondAttribute="trailing" constant="100" id="bix-8Y-BnC"/>
+                            <constraint firstAttribute="trailing" secondItem="P6D-ZQ-JxN" secondAttribute="trailing" constant="100" id="csp-jh-kre"/>
+                            <constraint firstItem="iq6-xx-70e" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dad-dC-vQf"/>
+                            <constraint firstAttribute="bottom" secondItem="m7U-Sl-QjJ" secondAttribute="bottom" constant="30" id="ewl-KD-Wmr"/>
+                            <constraint firstAttribute="bottom" secondItem="Xor-Zw-8zG" secondAttribute="bottom" id="f9Y-QJ-tus"/>
+                            <constraint firstItem="xLl-BM-9pQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="fAc-hm-wyQ"/>
+                            <constraint firstItem="EuX-g2-kWw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="95" id="fsU-cA-eJ0"/>
+                            <constraint firstAttribute="trailing" secondItem="P6D-ZQ-JxN" secondAttribute="trailing" constant="30" id="kQ4-90-XKg"/>
+                            <constraint firstItem="P6D-ZQ-JxN" firstAttribute="top" secondItem="E2H-UI-DOD" secondAttribute="bottom" constant="10" id="nTV-Io-UiX"/>
+                            <constraint firstItem="Xor-Zw-8zG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oU4-2s-Wh1"/>
+                            <constraint firstItem="UMB-22-k5I" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oar-XI-FZt"/>
+                            <constraint firstAttribute="trailing" secondItem="UMB-22-k5I" secondAttribute="trailing" constant="25" id="t97-F0-x0y"/>
+                            <constraint firstItem="xLl-BM-9pQ" firstAttribute="top" secondItem="Nol-Uq-Lwp" secondAttribute="bottom" constant="10" id="tAz-sk-e81"/>
+                            <constraint firstItem="P6D-ZQ-JxN" firstAttribute="top" secondItem="E2H-UI-DOD" secondAttribute="bottom" constant="10" id="v58-Zm-QWo"/>
+                            <constraint firstAttribute="trailing" secondItem="UMB-22-k5I" secondAttribute="trailing" constant="95" id="vE9-5X-6WK"/>
+                            <constraint firstItem="Nol-Uq-Lwp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="vhu-Vg-nho"/>
+                            <constraint firstItem="iq6-xx-70e" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="30" id="wc4-cn-DZ9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="csp-jh-kre"/>
+                                <exclude reference="kQ4-90-XKg"/>
+                                <exclude reference="nTV-Io-UiX"/>
+                                <exclude reference="v58-Zm-QWo"/>
+                                <exclude reference="7Fn-9M-Avv"/>
+                                <exclude reference="WeT-5o-Jh6"/>
+                                <exclude reference="fAc-hm-wyQ"/>
+                                <exclude reference="tAz-sk-e81"/>
+                                <exclude reference="dad-dC-vQf"/>
+                                <exclude reference="wc4-cn-DZ9"/>
+                                <exclude reference="5Qc-ri-khp"/>
+                                <exclude reference="fsU-cA-eJ0"/>
+                                <exclude reference="t97-F0-x0y"/>
+                                <exclude reference="vE9-5X-6WK"/>
+                                <exclude reference="ZeO-9G-rIC"/>
+                                <exclude reference="bix-8Y-BnC"/>
+                                <exclude reference="6nG-FC-3dp"/>
+                                <exclude reference="vhu-Vg-nho"/>
+                                <exclude reference="ewl-KD-Wmr"/>
+                                <exclude reference="YZO-Oj-p3f"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="csp-jh-kre"/>
+                                <include reference="nTV-Io-UiX"/>
+                                <include reference="7Fn-9M-Avv"/>
+                                <include reference="fAc-hm-wyQ"/>
+                                <include reference="dad-dC-vQf"/>
+                                <include reference="fsU-cA-eJ0"/>
+                                <include reference="vE9-5X-6WK"/>
+                                <include reference="bix-8Y-BnC"/>
+                                <include reference="vhu-Vg-nho"/>
+                                <include reference="ewl-KD-Wmr"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="kQ4-90-XKg"/>
+                                <include reference="v58-Zm-QWo"/>
+                                <include reference="WeT-5o-Jh6"/>
+                                <include reference="tAz-sk-e81"/>
+                                <include reference="wc4-cn-DZ9"/>
+                                <include reference="5Qc-ri-khp"/>
+                                <include reference="t97-F0-x0y"/>
+                                <include reference="ZeO-9G-rIC"/>
+                                <include reference="6nG-FC-3dp"/>
+                                <include reference="YZO-Oj-p3f"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="Xor-Zw-8zG" id="Npr-25-XWW"/>
+                        <outlet property="dealCardButton" destination="m7U-Sl-QjJ" id="ulH-Cr-TLK"/>
+                        <outlet property="firstCardFrameImageView" destination="EuX-g2-kWw" id="kGy-Mx-7pW"/>
+                        <outlet property="firstCardImageView" destination="Nol-Uq-Lwp" id="llA-h4-ZLz"/>
+                        <outlet property="leagueLogoImageView" destination="iq6-xx-70e" id="7kI-jm-UdP"/>
+                        <outlet property="secondCardFrameImageView" destination="UMB-22-k5I" id="8iJ-4Z-FDG"/>
+                        <outlet property="secondCardImageView" destination="E2H-UI-DOD" id="oDd-0r-4p7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="314" y="661"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="162" height="240"/>
+        <image name="card_back" width="181" height="256"/>
+        <image name="league_of_legends_logo" width="251" height="99"/>
+    </resources>
+</document>
