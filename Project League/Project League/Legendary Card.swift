@@ -8,9 +8,9 @@
 
 import Foundation
 
-class LegendaryCard : NormalCard {
+class LegendaryCard : Card {
     
-    override init(id: Int, name: String, attack: Int, defense: Int, hability: Int, difficulty: Int) {
+    override init(id: UInt32, name: String, attack: Int, defense: Int, hability: Int, difficulty: Int) {
         super.init(id: id, name: name, attack: attack, defense: defense, hability: hability, difficulty: difficulty)
         self.powerUp()
         print(self.name + " legendary card initialized")

@@ -8,16 +8,26 @@
 
 import Foundation
 
-class NormalCard {
+class Card {
     
-    var id:Int
+    var id:UInt32
     var name:String
     var attack:Int
     var defense:Int
     var hability:Int
     var difficulty:Int
     
-    init(id:Int, name:String, attack:Int, defense:Int, hability:Int, difficulty:Int){
+    init(){
+        self.id = 1
+        self.name = ""
+        self.attack = 0
+        self.defense = 0
+        self.hability = 0
+        self.difficulty = 0
+        print(self.name + " card initialized with default values")
+    }
+    
+    init(id:UInt32, name:String, attack:Int, defense:Int, hability:Int, difficulty:Int){
         self.id = id
         self.name = name
         self.attack = attack

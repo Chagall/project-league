@@ -64,17 +64,23 @@
                                     <action selector="playRoundTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8xS-co-T5g"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Katarina WK" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLl-BM-9pQ" userLabel="First Card Name">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Card 1" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLl-BM-9pQ" userLabel="First Card Name">
                                 <rect key="frame" x="0.0" y="0.0" width="105" height="23"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="30" y="495" width="105" height="23"/>
+                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Varus Artic Ops" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6D-ZQ-JxN" userLabel="Second Card Name">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Card 2" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6D-ZQ-JxN" userLabel="Second Card Name">
                                 <rect key="frame" x="0.0" y="0.0" width="134" height="23"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="236" y="495" width="134" height="23"/>
+                                </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EuX-g2-kWw" userLabel="First Card Frame">
                                 <rect key="frame" x="0.0" y="210" width="130" height="180"/>
@@ -115,7 +121,7 @@
                             <constraint firstItem="Nol-Uq-Lwp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="O3d-Nj-9ed"/>
                             <constraint firstItem="Xor-Zw-8zG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VtR-md-7lq"/>
                             <constraint firstItem="xLl-BM-9pQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="WeT-5o-Jh6"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="m7U-Sl-QjJ" secondAttribute="bottom" constant="150" id="YZO-Oj-p3f"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="m7U-Sl-QjJ" secondAttribute="bottom" constant="100" id="YZO-Oj-p3f"/>
                             <constraint firstAttribute="trailing" secondItem="E2H-UI-DOD" secondAttribute="trailing" constant="30" id="ZeO-9G-rIC"/>
                             <constraint firstAttribute="trailing" secondItem="Xor-Zw-8zG" secondAttribute="trailing" id="bCb-Xg-z99"/>
                             <constraint firstAttribute="trailing" secondItem="E2H-UI-DOD" secondAttribute="trailing" constant="100" id="bix-8Y-BnC"/>
@@ -194,9 +200,11 @@
                         <outlet property="dealCardButton" destination="m7U-Sl-QjJ" id="ulH-Cr-TLK"/>
                         <outlet property="firstCardFrameImageView" destination="EuX-g2-kWw" id="kGy-Mx-7pW"/>
                         <outlet property="firstCardImageView" destination="Nol-Uq-Lwp" id="llA-h4-ZLz"/>
+                        <outlet property="firstCardName" destination="xLl-BM-9pQ" id="rfU-aO-0kO"/>
                         <outlet property="leagueLogoImageView" destination="iq6-xx-70e" id="7kI-jm-UdP"/>
                         <outlet property="secondCardFrameImageView" destination="UMB-22-k5I" id="8iJ-4Z-FDG"/>
                         <outlet property="secondCardImageView" destination="E2H-UI-DOD" id="oDd-0r-4p7"/>
+                        <outlet property="secondCardName" destination="P6D-ZQ-JxN" id="0d0-HM-h8L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

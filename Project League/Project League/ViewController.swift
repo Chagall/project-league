@@ -10,11 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var firstCardName: UILabel!
     @IBOutlet weak var firstCardImageView: UIImageView!
     @IBOutlet weak var firstCardFrameImageView: UIImageView!
+    
+    @IBOutlet weak var secondCardName: UILabel!
     @IBOutlet weak var secondCardImageView: UIImageView!
     @IBOutlet weak var secondCardFrameImageView: UIImageView!
+
     @IBOutlet weak var dealCardButton: UIButton!
+    
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var leagueLogoImageView: UIImageView!
     
@@ -27,40 +32,80 @@ class ViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     @IBAction func playRoundTapped(sender: UIButton) {
-        
-        board.startGame()
+        (board.firstCard, board.secondCard) = board.dealCards()
 
-        firstCardImageView.image = UIImage(named: "diana_dark_valkyrie")
-        firstCardFrameImageView.image = UIImage(named: "challenger_frame")
-        secondCardImageView.image = UIImage(named: "jayce_forsaken")
-        secondCardFrameImageView.image = UIImage(named: "diamond_frame")
+        changeFirstCardImage(board.firstCard)
+        changeSecondCardImage(board.secondCard)
     }
     
-    func changeCardImage(cardId:Int) {
-        switch cardId {
-        case 1:
-            firstCardImageView.image = UIImage(named: "ashe")
-            firstCardFrameImageView.image = UIImage(named: "challenger_frame")
-            break
-        case 2:
-            firstCardImageView.image = UIImage(named: "blitzcrank")
-            firstCardFrameImageView.image = UIImage(named: "challenger_frame")
-        case 3:
-            firstCardImageView.image = UIImage(named: "annie")
-            firstCardFrameImageView.image = UIImage(named: "challenger_frame")
-        case 4:
-            firstCardImageView.image = UIImage(named: "evelynn")
-            firstCardFrameImageView.image = UIImage(named: "challenger_frame")
-        case 5:
-            firstCardImageView.image = UIImage(named: "dr_mundo")
-            firstCardFrameImageView.image = UIImage(named: "challenger_frame")
-        default:
-            firstCardImageView.image = UIImage(named: "dr_mundo")
-            firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+    func changeFirstCardImage(card:Card) {
+        switch card.id {
+            case 1:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "ashe")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+                break
+            case 2:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "blitzcrank")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+                break
+            case 3:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "annie")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+                break
+            case 4:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "evelynn")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+                break
+            case 5:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "dr_mundo")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+                break
+            default:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "dr_mundo")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame")
+        }
+    }
+    
+    func changeSecondCardImage(card:Card) {
+        switch card.id {
+            case 1:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "ashe")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame")
+                break
+            case 2:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "blitzcrank")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame")
+                break
+            case 3:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "annie")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame")
+                break
+            case 4:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "evelynn")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame")
+                break
+            case 5:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "dr_mundo")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame")
+                break
+            default:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "teemo")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame")
         }
     }
 
