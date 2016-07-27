@@ -18,7 +18,7 @@ class Card {
     var difficulty:Int
     
     init(){
-        self.id = 1
+        self.id = 0
         self.name = ""
         self.attack = 0
         self.defense = 0
