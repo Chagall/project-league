@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -26,11 +26,14 @@
                                     <constraint firstAttribute="width" constant="50" id="G0S-86-dtg"/>
                                     <constraint firstAttribute="height" constant="50" id="JKa-gb-ivp"/>
                                 </constraints>
-                                <state key="normal" image="play">
+                                <state key="normal" image="play_button">
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="163" y="470" width="75" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="176" y="725" width="50" height="50"/>
                                 </variation>
                                 <connections>
                                     <action selector="playRoundTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8xS-co-T5g"/>
@@ -289,6 +292,6 @@
         <image name="background" width="162" height="240"/>
         <image name="card_back" width="181" height="256"/>
         <image name="league_of_legends_logo" width="251" height="99"/>
-        <image name="play" width="240" height="240"/>
+        <image name="play_button" width="318" height="318"/>
     </resources>
 </document>

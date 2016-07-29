@@ -143,6 +143,81 @@ class ViewController: UIViewController {
                 firstCardImageView.image = UIImage(named: "diana.jpg")
                 firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
                 break
+            case 21:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "dr_mundo.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 22:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "draven.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 23:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "ekko.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 24:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "elise.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 25:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "evelynn.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 26:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "ezreal.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 27:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "fiddlesticks.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 28:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "fiora.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 29:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "fizz.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 30:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "galio.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 31:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "gangplank.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 32:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "garen.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 33:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "gnar.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 34:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "gragas.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 35:
+                firstCardName.text = card.name
+                firstCardImageView.image = UIImage(named: "graves.jpg")
+                firstCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
             default:
                 firstCardName.text = card.name
                 firstCardImageView.image = UIImage(named: "teemo.jpg")
@@ -250,6 +325,81 @@ class ViewController: UIViewController {
 			case 20:
                 secondCardName.text = card.name
                 secondCardImageView.image = UIImage(named: "diana.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 21:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "dr_mundo.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 22:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "draven.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 23:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "ekko.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 24:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "elise.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 25:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "evelynn.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 26:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "ezreal.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 27:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "fiddlesticks.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 28:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "fiora.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 29:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "fizz.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 30:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "galio.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 31:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "gangplank.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 32:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "garen.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 33:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "gnar.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 34:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "gragas.jpg")
+                secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
+                break
+            case 35:
+                secondCardName.text = card.name
+                secondCardImageView.image = UIImage(named: "graves.jpg")
                 secondCardFrameImageView.image = UIImage(named: "challenger_frame.png")
                 break
             default:

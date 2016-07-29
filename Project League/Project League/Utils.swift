@@ -11,7 +11,7 @@ import Foundation
 class UtilMethods {
     
     static func generateRandomCardId() -> UInt32 {
-        let cardId = arc4random_uniform(20) + 1
+        let cardId = arc4random_uniform(35) + 1
         return(cardId)
     }
     
